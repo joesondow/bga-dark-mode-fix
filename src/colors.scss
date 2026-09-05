@@ -3,11 +3,11 @@ $background: #282a36; // Dracula background color
 $primary: #bd93f9; // Dracula accent color
 $error: #ff5555; // Dracula error color
 
-$surface: color.scale($background, $lightness: 5%);
-$lightSurface: color.scale($background, $lightness: 10%);
-$lighterSurface: color.scale($background, $lightness: 15%);
-$lightPrimary: color.scale($primary, $lightness: 10%);
-$darkPrimary: color.scale($primary, $lightness: -5%);
+$surface: #13141A;
+$lightSurface: #17181F;
+$lighterSurface: #1A1B19;
+$lightPrimary: #4D3E62;
+$darkPrimary: #463261;
 $lightError: color.scale($error, $lightness: 5%);
 
 $onBackground: #f8f8f2; // Softer white for text on background
