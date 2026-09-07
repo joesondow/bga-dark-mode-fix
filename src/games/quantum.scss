@@ -1,0 +1,17 @@
+html.dark body:has(.bgagame-quantum) {
+    background:none;
+}
+
+html.dark body:has(.bgagame-quantum) .dijitTooltipContents .shipImage {
+    mix-blend-mode: multiply;
+}
+
+.bgagame-quantum {
+    .dieLabel {
+        color: #e3e3e3;
+    }
+
+    .player-board {
+        background-color: var(--game-bga-player-panel-background);
+    }
+}
