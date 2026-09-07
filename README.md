@@ -2,7 +2,7 @@
 
 A collection of CSS fixes for the 2026 [unfinished native dark mode](https://boardgamearena.com/forum/viewtopic.php?p=259278#p259278) of [boardgamearena.com](https://boardgamearena.com/).
 
-Based on the discontinued project [bga-dark-mode](https://github.com/audabas/bga-dark-theme).
+Based on the discontinued project [bga-dark-theme](https://github.com/audabas/bga-dark-theme).
 
 ## Installation
 
