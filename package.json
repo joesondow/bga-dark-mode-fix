@@ -1,6 +1,6 @@
 {
-  "name": "bga-dark-theme",
-  "version": "1.1.9",
+  "name": "bga-dark-mode-fix",
+  "version": "1.2",
   "description": "A dark theme for boardgamearena.com",
   "dependencies": {
     "sass": "^1.30.0"
@@ -15,12 +15,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/audabas/bga-dark-theme.git"
+    "url": "git+https://github.com/joesondow/bga-dark-mode-fix.git"
   },
   "author": "audabas",
   "license": "LPRAB",
   "bugs": {
-    "url": "https://github.com/audabas/bga-dark-theme/issues"
+    "url": "https://github.com/joesondow/bga-dark-mode-fix/issues"
   },
-  "homepage": "https://github.com/audabas/bga-dark-theme#readme"
+  "homepage": "https://github.com/joesondow/bga-dark-mode-fix#readme"
 }
