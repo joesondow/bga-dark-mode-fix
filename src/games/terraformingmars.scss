@@ -1,6 +1,20 @@
 .bgagame-terraformingmars {
-     color:black;
+	color: black;
+
 	.groupline, .playerboard_group {
-	  color:$onPrimary;
+		color: $onPrimary;
+	}
+
+	#pagemaintitletext,
+	.pageheader {
+		color: white;
+	}
+
+	.player_area {
+		background: linear-gradient(-35deg,rgba(38, 38, 38, 0.7),hsla(0, 0%, 20.8%, 0.5) 24%,hsla(0, 0%, 11.4%, 0.5) 82%,hsla(0, 0%, 31.4%, 0.9));
+	}
+
+	.player_area_name {
+		background: linear-gradient(0deg,#787878 0,#252525 1%,#141414 26%,#000 48%,#212121 75%,#1a1a1a);
 	}
 }
