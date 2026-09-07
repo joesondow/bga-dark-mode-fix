@@ -1,28 +1,25 @@
-> [!WARNING]
-> **This project is discontinued.** Board Game Arena now ships an
-> [official dark theme](https://boardgamearena.com/forum/viewtopic.php?p=259278#p259278)
-> — please use that instead.
->
-> This repository is kept for reference and is no longer actively maintained. Thank you to
-> everyone who used and contributed to it over the years. 🖤
+# BGA Dark Mode Fix
 
-A dark css theme for [boardgamearena.com](https://boardgamearena.com/)
+A collection of CSS fixes for the 2026 [unfinished native dark mode](https://boardgamearena.com/forum/viewtopic.php?p=259278#p259278) of [boardgamearena.com](https://boardgamearena.com/).
 
-## Installation :
+Based on the discontinued project [bga-dark-mode](https://github.com/audabas/bga-dark-theme).
 
-- Go to Preferences -> Advanced (or open this link : https://boardgamearena.com/preferences?section=advanced)
-- Copy paste the content of [dist/style.css](https://raw.githubusercontent.com/audabas/bga-dark-theme/main/dist/style.css) in the textbox and save
-- Close and reopen BGA and enjoy dark theme :)
+## Installation
 
-## Screenshots :
+- Go to Preferences -> Advanced (or open this link : https://boardgamearena.com/preferences?section=advanced).
+- Copy the content of [dist/style.css](https://raw.githubusercontent.com/joesondow/bga-dark-mode-fix/main/dist/style.css) and paste it into the textbox and click Save.
+- Refresh your BGA game browser tab and enjoy the dark mode fixes.
 
-### Homepage
-![homepage](https://raw.githubusercontent.com/audabas/bga-dark-theme/main/screenshots/homepage.png)
-### Game selection
-![gamelist](https://raw.githubusercontent.com/audabas/bga-dark-theme/main/screenshots/gamelist.png)
-### In-game
-![ingame](https://raw.githubusercontent.com/audabas/bga-dark-theme/main/screenshots/ingame.png)
+## Screenshots
 
-## Found a bug ?
+| Light | Dark Native | Dark Fix |
+|-------|-------------|----------|
+|![7wondersarchlight](https://raw.githubusercontent.com/joesondow/bga-dark-mode-fix/main/screenshots/7wondersarchlight.png)|![7wondersarchdarknative](https://raw.githubusercontent.com/joesondow/bga-dark-mode-fix/main/screenshots/7wondersarchdarknative.png)|![7wondersarchdarkfix](https://raw.githubusercontent.com/joesondow/bga-dark-mode-fix/main/screenshots/7wondersarchdarkfix.png)|
+|![justonelight](https://raw.githubusercontent.com/joesondow/bga-dark-mode-fix/main/screenshots/justonelight.png)|![justonedarknative](https://raw.githubusercontent.com/joesondow/bga-dark-mode-fix/main/screenshots/justonedarknative.png)|![justonedarkfix](https://raw.githubusercontent.com/joesondow/bga-dark-mode-fix/main/screenshots/justonedarkfix.png)|
+|![splendorlight](https://raw.githubusercontent.com/joesondow/bga-dark-mode-fix/main/screenshots/splendorlight.png)|![splendordarknative](https://raw.githubusercontent.com/joesondow/bga-dark-mode-fix/main/screenshots/splendordarknative.png)|![splendordarkfix](https://raw.githubusercontent.com/joesondow/bga-dark-mode-fix/main/screenshots/splendordarkfix.png)|
+|![quantumlight](https://raw.githubusercontent.com/joesondow/bga-dark-mode-fix/main/screenshots/quantumlight.png)|![quantumdarknative](https://raw.githubusercontent.com/joesondow/bga-dark-mode-fix/main/screenshots/quantumdarknative.png)|![quantumdarkfix](https://raw.githubusercontent.com/joesondow/bga-dark-mode-fix/main/screenshots/quantumdarkfix.png)|
+|![nextstationlight](https://raw.githubusercontent.com/joesondow/bga-dark-mode-fix/main/screenshots/nextstationlight.png)|![nextstationdarknative](https://raw.githubusercontent.com/joesondow/bga-dark-mode-fix/main/screenshots/nextstationdarknative.png)|![nextstationdarkfix](https://raw.githubusercontent.com/joesondow/bga-dark-mode-fix/main/screenshots/nextstationdarkfix.png)|
 
-This project is no longer maintained. If you want a maintained dark theme, use BGA's [official dark theme](https://boardgamearena.com/forum/viewtopic.php?p=259278#p259278).
+## Found a bug?
+
+If you find any more readability problems or excessive brightness in any games while using [BGA's native dark mode](https://boardgamearena.com/forum/viewtopic.php?p=259278#p259278), feel free to [file an issue](https://github.com/joesondow/bga-dark-mode-fix/issues) or [open a pull request](https://github.com/joesondow/bga-dark-mode-fix/pulls).
