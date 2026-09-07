@@ -1,0 +1,20 @@
+.bgagame-zombicidesecondedition #zom-missions-won.zom_maximized {
+	background: #797669;
+}
+
+.bgagame-zombicidesecondedition #zom-reserve-container {
+	background: $background;
+	color: white;
+}
+
+#overall-content:has(.bgagame-zombicidesecondedition) {
+	background-image: url(https://x.boardgamearena.net/data/themereleases/260902-0910/img/layout/back-mainb.png);
+}
+
+body:has(.bgagame-zombicidesecondedition) .dijitTooltipContents .zom_survivor-tt-abilities {
+	color: var(--palette-bga-gray-950);
+}
+
+html.dark .tundra:has(.bgagame-zombicidesecondedition) .dijitTooltip .dijitTooltipContents {
+	background: $lighterSurface;
+}
