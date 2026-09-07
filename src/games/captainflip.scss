@@ -1,0 +1,14 @@
+body #overall-content:has(.bgagame-captainflip) {
+    backdrop-filter: brightness(.4);
+}
+.bgagame-captainflip .cf_board img {
+    filter: brightness(.6);
+}
+
+body:has(.bgagame-captainflip) .cf_tooltip {
+    background-color: $background;
+}
+
+body:has(.bgagame-captainflip) .cf_tooltip_quote {
+    color: var(--palette-bga-gray-950);
+}
