@@ -1,24 +1,33 @@
+#overall-content:has(.bgagame-justone) {
+    background-color: $background;
+}
 .bgagame-justone {
-    #board{
-        background-color: $background;
+    #left-side-wrapper {
+        background: none;
     }
-    .mystery-word{
+
+    .mystery-word {
         color: black;
     }
-    #score-counter{
-        color:black;
+
+    #score-counter {
+        color: black;
     }
-    #card-back-countdown{
+
+    #card-back-countdown {
         color: $onBackground;
     }
-    #question{
-        color:black;
+
+    #question {
+        color: black;
     }
-    input{
+
+    input {
         background-color: transparent !important;
         border: transparent !important;
-        color:black !important;
+        color: black !important;
     }
+
     #table-decision {
         background-color: $surface;
     }
