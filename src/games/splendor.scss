@@ -1,8 +1,20 @@
+html.dark #overall-content:has(.bgagame-splendor) {
+    backdrop-filter: brightness(.4);
+}
+
 .bgagame-splendor {
-    .spl_coinpile_counter {
-        color: black;
+    .spl_counts.type_C,
+    .player_name {
+        background-color: #ececec;
     }
+
     .spl_cardbutton {
-        color: black;
+        background: hsla(0,0%,10%,.9);
+        color: #fff;
+    }
+
+    .spl_sendpay.inactive {
+        background: #616161;
     }
 }
+
