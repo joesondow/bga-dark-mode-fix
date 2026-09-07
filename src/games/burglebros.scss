@@ -1,0 +1,7 @@
+.dijitTooltipContents .tooltip_container:has(.card.tooltip) {
+    background-color: $background;
+}
+
+.dijitTooltipContents .midSizeDialog:has(.card.tooltip) {
+    max-width:720px;
+}
