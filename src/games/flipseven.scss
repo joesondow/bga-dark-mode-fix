@@ -2,4 +2,11 @@
 	.f7_card_count {
 		color: black;
 	}
+
+	.f7_zoom_icon path {
+		fill: gray;
+	}
+}
+html.dark body:has(.bgagame-flipseven) {
+	background-image: url(https://x.boardgamearena.net/data/themereleases/260902-0910/img/layout/back-mainb.png);
 }
