@@ -10,6 +10,10 @@ Based on the discontinued project [bga-dark-theme](https://github.com/audabas/bg
 - Copy the content of [dist/style.css](https://raw.githubusercontent.com/joesondow/bga-dark-mode-fix/main/dist/style.css) and paste it into the textbox and click Save.
 - Refresh your BGA game browser tab and enjoy the dark mode fixes.
 
+## Found a bug?
+
+If you find any more **readability problems** or **excessive brightness** in any BGA games while using [BGA's native dark mode](https://boardgamearena.com/forum/viewtopic.php?p=259278#p259278) along with this project's custom CSS, feel free to [file an issue](https://github.com/joesondow/bga-dark-mode-fix/issues) or [open a pull request](https://github.com/joesondow/bga-dark-mode-fix/pulls).
+
 ## Screenshots
 
 | Light | Dark Native | Dark Fix |
@@ -20,6 +24,3 @@ Based on the discontinued project [bga-dark-theme](https://github.com/audabas/bg
 |![quantumlight](https://raw.githubusercontent.com/joesondow/bga-dark-mode-fix/main/screenshots/quantumlight.png)|![quantumdarknative](https://raw.githubusercontent.com/joesondow/bga-dark-mode-fix/main/screenshots/quantumdarknative.png)|![quantumdarkfix](https://raw.githubusercontent.com/joesondow/bga-dark-mode-fix/main/screenshots/quantumdarkfix.png)|
 |![nextstationlight](https://raw.githubusercontent.com/joesondow/bga-dark-mode-fix/main/screenshots/nextstationlight.png)|![nextstationdarknative](https://raw.githubusercontent.com/joesondow/bga-dark-mode-fix/main/screenshots/nextstationdarknative.png)|![nextstationdarkfix](https://raw.githubusercontent.com/joesondow/bga-dark-mode-fix/main/screenshots/nextstationdarkfix.png)|
 
-## Found a bug?
-
-If you find any more readability problems or excessive brightness in any games while using [BGA's native dark mode](https://boardgamearena.com/forum/viewtopic.php?p=259278#p259278), feel free to [file an issue](https://github.com/joesondow/bga-dark-mode-fix/issues) or [open a pull request](https://github.com/joesondow/bga-dark-mode-fix/pulls).
