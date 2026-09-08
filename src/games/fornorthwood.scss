@@ -1,3 +1,4 @@
+@use "../colors" as *;
 .bgagame-fornorthwood {
 	.whiteblock, .visiting_space.currently_visiting, #fief_move_left, #fief_move_right {
 		background-color: rgba(0,0,0,0.1);
