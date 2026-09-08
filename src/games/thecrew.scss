@@ -9,4 +9,44 @@
         height: 100%;
         filter: brightness(20%);
     }
+
+    #thecrew-table > div#table-middle > div#cards-mat {
+        background-color: hsla(0,0%,40%,.6);
+    }
+
+    .player-table {
+        background-color: hsla(0,0%,40%,.6);
+    }
+
+    .player-table.active {
+        background-color: hsla(0,0%,80%,.6);
+    }
+
+    #hand-container #hand-wrapper {
+        background-color: hsla(0,0%,20%,.6);
+    }
+
+    #discard-container #discard-wrapper {
+        background-color: hsla(0,0%,20%,.6);
+    }
+
+    .player-table .player-table-wrapper .player-table-name {
+        background-color: rgba(24, 24, 24, 0.9);
+    }
+
+    .player-table .communication-card-holder {
+        background-color: hsla(0,0%,20%,.9);
+    }
+
+    .book {
+        --book-background: #2b2926;
+    }
+
+    .book .open-book {
+        color: white;
+    }
+
+    .book .open-book .chapter-title::after, .book .open-book .chapter-title::before {
+        border-color: white;
+    }
 }
