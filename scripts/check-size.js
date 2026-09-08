@@ -9,7 +9,7 @@ const path = require("path");
 // Hard limit enforced by BGA (bytes). Going over this breaks the theme.
 const HARD_LIMIT = 65535;
 // Warn when we get close, so we notice before running out of headroom.
-const WARN_LIMIT = 62000;
+const WARN_LIMIT = 60000;
 
 const cssPath = path.join(__dirname, "..", "dist", "style.css");
 const bytes = fs.statSync(cssPath).size;
@@ -26,7 +26,7 @@ if (bytes > HARD_LIMIT) {
 if (bytes > WARN_LIMIT) {
   console.warn(
     `⚠️  dist/style.css is ${bytes} bytes (${pct}% of the ${HARD_LIMIT}-byte limit). ` +
-      `Headroom is getting tight — keep new rules lean.`
+      `Headroom is getting tight. Find and shorten long rules. Keep new rules lean.`
   );
 } else {
   console.log(`✓ dist/style.css is ${bytes} bytes (${pct}% of the ${HARD_LIMIT}-byte limit).`);
