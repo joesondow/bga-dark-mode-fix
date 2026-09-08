@@ -1,0 +1,86 @@
+@use "../colors" as *;
+body:has(.bgagame-thecrewdeepsea) {
+    #popin_showTour h2 {
+        background-color: $lighterSurface;
+    }
+
+    #popin_showTour {
+        background-color: #13141A;
+    }
+
+    #popin_showTour #tour-slider-container .slide .bubble-tour {
+        background-color: $lighterSurface;
+    }
+
+    .thecrewdeepsea_popin_underlay {
+        filter: brightness(.2);
+    }
+}
+
+
+
+.bgagame-thecrewdeepsea {
+
+    &::before {
+        background-image: url(https://x.boardgamearena.net/data/themereleases/current/games/thecrewdeepsea/260819-0926/img/background.jpg);
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        filter: brightness(20%);
+    }
+
+    #mission-overview #mission-overview-counter-wrapper {
+        background: #322e2b;
+    }
+
+    #mission-overview .overview-bubble {
+        background-color: hsla(0,0%,20%,.6);
+    }
+
+    .mission-informations .mission-text {
+        text-shadow: none;
+    }
+
+    #thecrewdeepsea-table > div#table-middle > div {
+        background-color: hsla(0,0%,40%,.6);
+    }
+
+    .player-table {
+        background-color: hsla(0,0%,40%,.6);
+    }
+
+    .player-table.active {
+        background-color: hsla(0,0%,80%,.6);
+    }
+
+    #hand-container #hand-wrapper {
+        background-color: hsla(0,0%,20%,.6);
+    }
+
+    #discard-container #discard-wrapper {
+        background-color: hsla(0,0%,20%,.6);
+    }
+
+    .player-table .player-table-name {
+        background-color: black;
+    }
+
+    .player-table .player-table-wrapper .player-table-name {
+        background-color: rgba(24, 24, 24, 0.9);
+    }
+
+    .player-table .communication-card-holder {
+        background-color: hsla(0,0%,20%,.9);
+    }
+
+    #hand-container {
+        background-color: hsla(0,0%,30%,.6);
+    }
+
+    #discard-container #discard-wrapper #discard-grid .discard-slot#discard-1-0, #discard-container #discard-wrapper #discard-grid .discard-slot#discard-2-0, #discard-container #discard-wrapper #discard-grid .discard-slot#discard-3-0, #discard-container #discard-wrapper #discard-grid .discard-slot#discard-4-0, #discard-container #discard-wrapper #discard-grid .discard-slot#discard-5-0 {
+        background-color: black;
+    }
+}
