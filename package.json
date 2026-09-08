@@ -17,8 +17,8 @@
     "type": "git",
     "url": "git+https://github.com/joesondow/bga-dark-mode-fix.git"
   },
-  "author": "audabas",
-  "license": "LPRAB",
+  "author": "joesondow",
+  "license": "WTFPL",
   "bugs": {
     "url": "https://github.com/joesondow/bga-dark-mode-fix/issues"
   },
