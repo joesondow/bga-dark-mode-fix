@@ -1,0 +1,26 @@
+html.dark body:has(.bgagame-itsawonderfulworld) {
+    background-image: url(https://x.boardgamearena.net/data/themereleases/260902-0910/img/layout/back-mainb.png);
+    .player-board {
+        color: white;
+    }
+}
+
+.bgagame-itsawonderfulworld {
+    .iww-tab {
+        background-color: #444;
+        border: solid #2d2d2d;
+    }
+
+    iww-tab:hover, .iww-tab.iww-tab-selected {
+        background-color: #cecece;
+        border: solid #2d2d2d;
+    }
+
+    .player-board:not(#iww-info):not(#spectatorbox) {
+        text-shadow: 0 0 2px #000,0 0 1px #000;
+     }
+
+    .player-board:not(#iww-info):not(#spectatorbox)::before {
+        filter: contrast(.5) brightness(.5) grayscale(.3);
+    }
+}
