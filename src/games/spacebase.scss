@@ -1,0 +1,12 @@
+body:has(.bgagame-spacebase) .dijitTooltipContainer .midSizeDialog .cardToolTip {
+    .cardToolTipTitle, .cardInfo {
+        background-color: #3c4054;
+    }
+
+    .cardToolTipTitle p {
+        height: 15px;
+    }
+}
+.bgagame-spacebase .whitebkg {
+    background-color: hsla(0,0%,100%,.2);
+}
