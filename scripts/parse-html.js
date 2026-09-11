@@ -36,7 +36,10 @@ const beforeJson = "globalUserInfos=";
 const afterJson = "globalLangInfos=";
 const startIndex = htmlText.indexOf(beforeJson) + beforeJson.length;
 const endIndex = htmlText.indexOf(afterJson);
-const jsonText = htmlText.substring(startIndex, endIndex).trim();
+var jsonText = htmlText.substring(startIndex, endIndex).trim();
+if (jsonText.endsWith(";")) {
+	jsonText = jsonText.substring(0, jsonText.length - 1);
+}
 //console.log(jsonText);
 
 var outFile = fs.createWriteStream(jsonPath);
