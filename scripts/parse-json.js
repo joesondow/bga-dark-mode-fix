@@ -56,11 +56,10 @@ for (let i = 0; i < srcGameList.length; i++) {
 	};
 	targetGameList.push(targetGame);
 }
-console.log(gamesString);
+//console.log(JSON.stringify(targetGameList, null, 4));
 
+var outText = JSON.stringify(targetGameList, null, 4);
 
-
-/*
 var outFile = fs.createWriteStream(targetPath);
 try {
 	fs.promises.writeFile(targetPath, outText);
@@ -69,5 +68,4 @@ try {
 } catch (err) {
 	console.error(err);
 }
-*/
 
