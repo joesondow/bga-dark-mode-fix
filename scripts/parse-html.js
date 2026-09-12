@@ -2,8 +2,8 @@
 const fs = require('fs');
 const path = require("path");
 
-const htmlPath = path.join(__dirname, "..", "gamelist", "gamelist.html");
-const jsonPath = path.join(__dirname, "..", "gamelist", "globalUserInfos.json");
+const htmlPath = path.join(__dirname, "..", "data", "gamelist.html");
+const jsonPath = path.join(__dirname, "..", "data", "globalUserInfos.json");
 
 var file = fs.createReadStream(htmlPath);
 var htmlText;

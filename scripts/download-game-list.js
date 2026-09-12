@@ -8,7 +8,7 @@ const https = require('https');
 const fs = require('fs');
 const path = require("path");
 
-const htmlPath = path.join(__dirname, "..", "gamelist", "gamelist.html");
+const htmlPath = path.join(__dirname, "..", "data", "gamelist.html");
 const allGamesByPopularityDescUrl = "https://boardgamearena.com/gamelist?allGames=&sort=popularity%3Adesc";
 
 var download = async function(url, dest) {

@@ -1,3 +1,5 @@
 .idea
 node_modules
 */.vs/
+data/globalUserInfos.json
+data/gamelist.html

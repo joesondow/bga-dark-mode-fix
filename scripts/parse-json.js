@@ -2,8 +2,8 @@
 const fs = require('fs');
 const path = require("path");
 
-const srcPath = path.join(__dirname, "..", "gamelist", "globalUserInfos.json");
-const targetPath = path.join(__dirname, "..", "gamelist", "game_list.json");
+const srcPath = path.join(__dirname, "..", "data", "globalUserInfos.json");
+const targetPath = path.join(__dirname, "..", "data", "game_list.json");
 const gamesSassFolderPath = path.join(__dirname, "..", "src/games");
 
 var srcFile = fs.createReadStream(srcPath);
