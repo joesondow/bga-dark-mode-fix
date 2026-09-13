@@ -20,12 +20,16 @@ var jsonObj = JSON.parse(jsonText);
 // console.log(jsonObj);
 
 
-
+var fileGameNames = [];
 try {
 	srcFile.close();
 	fs.readdirSync(gamesSassFolderPath).forEach(file => {
-	  // will also include directory names
-	  console.log(file);
+		// will also include directory names
+		//console.log(file);
+		if (file.endsWith(".scss")) {
+			var filePrefix = file.substring(0, file.length - 5);
+			fileGameNames.push(filePrefix);
+		}
 	});
 	//jsonText = fs.readFileSync(gamesSassFolderPath);
 	// file read successfully
@@ -33,11 +37,15 @@ try {
 } catch (err) {
 	console.error(err);
 }
+//console.log(fileGameNames);
+
+
 
 var srcGameList = jsonObj["game_list"];
 var targetGameList = [];
+var targetGameNameList = [];
 
-console.log(srcGameList.length);
+// console.log(srcGameList.length);
 
 
 var gamesString = "";
@@ -55,8 +63,25 @@ for (let i = 0; i < srcGameList.length; i++) {
 		games_played: srcGame["games_played"]
 	};
 	targetGameList.push(targetGame);
+	targetGameNameList.push(srcGame["name"]);
 }
 //console.log(JSON.stringify(targetGameList, null, 4));
+
+
+var gamesWithFiles = [];
+var filesWithoutGames = [];
+
+fileGameNames.forEach(fileGameName => {
+	if (targetGameNameList.indexOf(fileGameName) >= 0) {
+		gamesWithFiles.push(fileGameName);
+	} else {
+		filesWithoutGames.push(fileGameName);
+	}
+});
+if (filesWithoutGames.length > 0) {
+	console.error("Files that don't match any game: " + filesWithoutGames);
+
+}
 
 var outText = JSON.stringify(targetGameList, null, 4);
 
