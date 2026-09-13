@@ -34,4 +34,8 @@
     .wsp_savepoint_log > .roundedbox {
         background-color: #3b3b3b;
     }
+
+    .wsp_scoresheet_img {
+        filter: invert(1) hue-rotate(180deg);
+    }
 }
