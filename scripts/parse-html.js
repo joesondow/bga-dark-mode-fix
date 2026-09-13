@@ -1,4 +1,11 @@
-//const jsdom = require("jsdom");
+#!/usr/bin/env node
+// Parses a part of downloaded html file from BGA, 
+// expected to contain a specific JavaScript section
+// that has a JSON blob to extract and save to a file, 
+// listing every BGA game in order by popularity 
+// a.k.a. "weight".
+// For use by other scripts to generate data tables about
+// which games still need help looking good in dark mode.
 const fs = require('fs');
 const path = require("path");
 
