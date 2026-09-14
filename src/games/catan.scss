@@ -1,14 +1,18 @@
 .bgagame-catan {
     #cat_summary:before {
-        background-image:url(https://x.boardgamearena.net/data/themereleases/current/games/catan/220611-1138/img/summaryv2.jpg);
+        background-image: url(https://x.boardgamearena.net/data/themereleases/current/games/catan/220611-1138/img/summaryv2.jpg);
         background-size: contain;
-        width:100%;
-        height:100%;
-        position:absolute;
-        top:0;
-        left:0;
-        content:"";
-        filter:invert(80%);
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        content: "";
+        filter: invert(80%);
+    }
+
+    #cat_summary {
+        color: white;
     }
 
     #cat_map_bg {
@@ -23,18 +27,25 @@
     .cat_card {
         color: black;
     }
+
+
+    #player_boards {
+        .icon_rescard, .icon_devcard, .icon_path, .icon_army {
+            filter: invert(1) hue-rotate(180deg);
+        }
+
+        #cat_tradeawarenessconfig {
+            background: none;
+        }
+    }
 }
 
-#player_boards {
-    .cat_panel_icon {
-        filter: invert(1) !important;
-    }
-    #cat_tradeawarenessconfig {
-        background: none;
-    }
+body:has(.bgagame-catan) .cat_btn_wb {
+    background: #322918;
 }
 
-.tundra .dijitTooltipContainer .cat_card {
+
+body:has(.bgagame-catan) .dijitTooltipContainer .cat_card {
     color: black;
     text-shadow: none;
 }
