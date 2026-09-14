@@ -1,0 +1,10 @@
+{
+	"readme": "This file is a manually updated list of approval percentages (and optional notes) for how good the dark mode gameplay looks, after our custom CSS has been applied (if any custom CSS was necessary). 100% is a perfectly dark and readable. 0% is glaringly bright and/or totally unreadable. A game might score 75% and still be considered good enough, if further changes are difficult, impossible, or cause new problems.",
+	
+	"games": {
+		"harmonies": {
+			"approval": 90,
+			"notes": "Boards and some cards could be a little dimmer but overall it's fairly dark."
+		}
+	}
+}
