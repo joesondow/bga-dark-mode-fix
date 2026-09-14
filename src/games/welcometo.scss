@@ -1,6 +1,43 @@
 .bgagame-welcometo {
+	.plan-card-holder .plan-card-front, .construction-card-back, .construction-card-front, .welcometo-player-board .plans-status > div {
+		filter: brightness(.85);
+	}
+
+	#construction-cards-container, #plan-cards-container {
+		background-color: hsla(0,0%,30%,.6);
+	}
+
+	.scribble .scribble-path, .scribble-checkmark .scribble-path, .scribble-christmas .scribble-path, .scribble-circle .scribble-path, .scribble-line .scribble-path, .scribble-line-hor .scribble-path, .scribble-roundabout .scribble-path {
+		stroke: white;
+	}
+
+	.welcometo-player-board .plans-status {
+		color: black;
+	}
+}
+
+body:has(.bgagame-welcometo) {
+	#popin_showScoreSheet_underlay {
+		filter: brightness(.01);
+	}
+
 	.house-number, .score-counter {
-	  color: darkblue;
-	} 
+		color: white;
+		text-shadow: black 2px 2px;
+	}
+
+	.score-sheet-container .score-sheet, #popin_showScoreSheet::before, #popin_showScoreSheet::after {
+		background-color: #838383;
+		background-blend-mode: multiply;
+	}
+
+	.welcometo_popin h2 {
+		text-shadow: black 1px 1px;
+	}
+
+	.cityname {
+		text-shadow: black 1px 1px;
+		filter: brightness(1.3);
+	}
 }
 
