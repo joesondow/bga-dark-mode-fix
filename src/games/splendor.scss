@@ -1,5 +1,5 @@
-html.dark #overall-content:has(.bgagame-splendor) {
-    backdrop-filter: brightness(.4);
+html:has(.bgagame-splendor) {
+    background-blend-mode: soft-light;
 }
 
 .bgagame-splendor {
