@@ -1,17 +1,22 @@
 @use "../colors" as *;
 .bgagame-memoir {
 	#m44-container {
-	  color: $onPrimary;
+		color: $onPrimary;
 	}
 
-	 #settings-controls-container .row-data .row-label {
-	  color: $onBackground;
+	#settings-controls-container .row-data .row-label {
+		color: $onBackground;
 	}
-	
+
 	#clipboard-button {
 		filter: invert(40%);
 	}
-}
-.memoir44_popin::after, .memoir44_popin::before{
-	filter: brightness(20%);
+
+	#logs .roundedbox {
+		background-color: #40434d;
+	}
+
+	.memoir44_popin::after, .memoir44_popin::before {
+		filter: brightness(20%);
+	}
 }
