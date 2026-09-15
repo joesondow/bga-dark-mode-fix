@@ -1,0 +1,22 @@
+.bgagame-heat {
+    #table-center .corner, .bga-cards_deck-counter.round {
+        filter: invert(1);
+    }
+
+    .player-table {
+        background: hsla(0,0%,0.1%,.2);
+    }
+
+    .player-table .hand-wrapper {
+        background: hsla(0,0%,10%,.533);
+    }
+
+    .personal-card {
+        filter: brightness(.75);
+    }
+
+    #table-center #circuit, .player-table .player-board, #legend-table #legend-board {
+        background-color: #777;
+        background-blend-mode: multiply;
+    }
+}
