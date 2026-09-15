@@ -1,14 +1,11 @@
 @use "../colors" as *;
 body:has(.bgagame-thecrewdeepsea) {
-    #popin_showTour h2 {
-        background-color: $lighterSurface;
-    }
 
     #popin_showTour {
         background-color: #13141A;
     }
 
-    #popin_showTour #tour-slider-container .slide .bubble-tour {
+    #popin_showTour h2, #popin_showTour #tour-slider-container .slide .bubble-tour {
         background-color: $lighterSurface;
     }
 
@@ -16,8 +13,6 @@ body:has(.bgagame-thecrewdeepsea) {
         filter: brightness(.2);
     }
 }
-
-
 
 .bgagame-thecrewdeepsea {
 
@@ -36,19 +31,11 @@ body:has(.bgagame-thecrewdeepsea) {
         background: #322e2b;
     }
 
-    #mission-overview .overview-bubble {
-        background-color: hsla(0,0%,20%,.6);
-    }
-
     .mission-informations .mission-text {
         text-shadow: none;
     }
 
-    #thecrewdeepsea-table > div#table-middle > div {
-        background-color: hsla(0,0%,40%,.6);
-    }
-
-    .player-table {
+    #thecrewdeepsea-table > div#table-middle > div, .player-table {
         background-color: hsla(0,0%,40%,.6);
     }
 
@@ -56,11 +43,7 @@ body:has(.bgagame-thecrewdeepsea) {
         background-color: hsla(0,0%,80%,.6);
     }
 
-    #hand-container #hand-wrapper {
-        background-color: hsla(0,0%,20%,.6);
-    }
-
-    #discard-container #discard-wrapper {
+    #mission-overview .overview-bubble, #hand-container #hand-wrapper, #discard-container #discard-wrapper {
         background-color: hsla(0,0%,20%,.6);
     }
 
