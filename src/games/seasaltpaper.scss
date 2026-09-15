@@ -1,0 +1,22 @@
+.bgagame-seasaltpaper {
+
+    .player-table, .player-table .name-wrapper {
+        background: hsla(0,0%,20%,.4);
+    }
+
+    #table-center {
+        background: rgba(27, 56, 59, 0.4);
+    }
+
+    #table-center #pick {
+        background-color: #34696e;
+    }
+
+    #table-center #deck-and-discards .discard-stack {
+        background-color: hsla(0,0%,20%,.4);
+    }
+}
+
+html:has(.bgagame-seasaltpaper) {
+    background-blend-mode: multiply;
+}
