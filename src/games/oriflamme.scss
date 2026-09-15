@@ -1,8 +1,4 @@
-.bgagame-oriflamme {
-
-}
-
-div.orf-tip-card {
+body:has(.bgagame-oriflamme) div.orf-tip-card {
     color: black;
     text-shadow: none;
 }
